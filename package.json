@@ -2,11 +2,11 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+"scripts": {
+      "dev": "next",
+      "build": "next build",
+      "start": "next start -p $PORT",
+      "postinstall": "next build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
