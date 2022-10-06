@@ -35,7 +35,7 @@ export default function Info() {
                                 <p className=" mb-10">
                                     A little information about myself
                                 </p>
-                                <p>HI&apos; MY NAME IS RATCHANON PAISAN</p>
+                                <p>Hello&apos; MY NAME IS RATCHANON PAISAN</p>
                                 <p>
                                     I&lsquo;M A PERSON DRIVE MY INSPIRATION AND
                                     LOVE TO DAYDREAM ABOUT FANTASY
