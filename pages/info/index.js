@@ -36,10 +36,8 @@ export default function Info() {
                                     A little information about myself
                                 </p>
                                 <p>Hello&apos; MY NAME IS RATCHANON PAISAN</p>
-                                <p>
-                                    I&lsquo;M A PERSON DRIVE MY INSPIRATION AND
-                                    LOVE TO DAYDREAM ABOUT FANTASY
-                                </p>
+                                <p>I&lsquo;M A PERSON DRIVE MY INSPIRATION</p>
+                                <p>AND LOVE TO DAYDREAM ABOUT FANTASY</p>
                                 <p>LOOKING FOWARD TO MEET YOU&#39;</p>
                             </article>
                             <Link href={"/contact"}>
