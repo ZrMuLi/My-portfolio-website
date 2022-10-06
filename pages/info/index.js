@@ -35,12 +35,12 @@ export default function Info() {
                                 <p className=" mb-10">
                                     A little information about myself
                                 </p>
-                                <p>HI, MY NAME IS RATCHANON PAISAN</p>
+                                <p>HI&apos; MY NAME IS RATCHANON PAISAN</p>
                                 <p>
-                                    I'M A PERSON DRIVE MY INSPIRATION AND LOVE
-                                    TO DAYDREAM ABOUT FANTASY
+                                    I&lsquo;M A PERSON DRIVE MY INSPIRATION AND
+                                    LOVE TO DAYDREAM ABOUT FANTASY
                                 </p>
-                                <p>LOOKING FOWARD TO MEET YOU.</p>
+                                <p>LOOKING FOWARD TO MEET YOU&#39;</p>
                             </article>
                             <Link href={"/contact"}>
                                 <button className="bg-primary px-9 py-2 rounded-full brightness-90 hover:brightness-100 transition-all">
@@ -51,7 +51,7 @@ export default function Info() {
                     </div>
 
                     <div className="block items-center h-full pr-0 lg:pr-24">
-                        <Image src={myImage}></Image>
+                        <Image src={myImage} alt="myImage"></Image>
                     </div>
                 </div>
             </motion.main>
