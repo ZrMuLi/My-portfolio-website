@@ -44,7 +44,7 @@ export default function works() {
                     </div>
                     <div className="flex flex-row justify-center">
                         <img
-                            src={require("../../img/rushapp-1.jpg")}
+                            src={require("@/img/rushapp-1.jpg")}
                             alt="image"
                             className="mx-auto"
                         />
@@ -69,12 +69,12 @@ export default function works() {
                     </div>
                     <div className="flex flex-row justify-center">
                         <img
-                            src={require("../../img/game-fi.png")}
+                            src={require("@/img/game-fi.png")}
                             alt="image"
                             className="mx-auto h-10 aspect-auto"
                         />
                         <img
-                            src={require("../../img/game-fi-design.jpg")}
+                            src={require("@/img/game-fi-design.jpg")}
                             alt="image"
                             className="mx-auto h-10 aspect-auto"
                         />
@@ -99,7 +99,7 @@ export default function works() {
                     </div>
                     <div className="flex flex-row justify-center">
                         <img
-                            src={require("../../img/certificate.JPG")}
+                            src={require("@/img/certificate.JPG")}
                             alt="image"
                             className="mx-auto"
                         />
@@ -124,12 +124,12 @@ export default function works() {
                     </div>
                     <div className="flex flex-row justify-center">
                         <img
-                            src={require("../../img/Jairaw(1).jpg")}
+                            src={require("@/img/Jairaw(1).jpg")}
                             alt="image"
                             className="mx-auto"
                         />
                         <img
-                            src={require("../../img/Jairaw(2).jpg")}
+                            src={require("@/img/Jairaw(2).jpg")}
                             alt="image"
                             className="mx-auto"
                         />
@@ -154,12 +154,12 @@ export default function works() {
                     </div>
                     <div className="flex flex-row justify-center">
                         <img
-                            src={require("../../img/Jairaw(1).jpg")}
+                            src={require("@/img/Jairaw(1).jpg")}
                             alt="image"
                             className="mx-auto"
                         />
                         <img
-                            src={require("../../img/Jairaw(2).jpg")}
+                            src={require("@/img/Jairaw(2).jpg")}
                             alt="image"
                             className="mx-auto"
                         />
@@ -184,12 +184,12 @@ export default function works() {
                     </div>
                     <div className="flex flex-row justify-center">
                         <img
-                            src={require("../../img/Jairaw(1).jpg")}
+                            src={require("@/img/Jairaw(1).jpg")}
                             alt="image"
                             className="mx-auto"
                         />
                         <img
-                            src={require("../../img/Jairaw(2).jpg")}
+                            src={require("@/img/Jairaw(2).jpg")}
                             alt="image"
                             className="mx-auto"
                         />

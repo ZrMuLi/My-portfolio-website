@@ -2,12 +2,18 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-"scripts": {
+  "scripts": {
       "dev": "next",
       "build": "next build",
       "start": "node_modules/next/dist/bin/next start -p $PORT",
       "postinstall": "next build",
       "export": "next build && next export"
+  },
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/img/*": ["img/*"]
+    }
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
