@@ -4,6 +4,14 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { TypeAnimation } from "react-type-animation";
 import { useState } from "react";
 
+import Image from "next/image";
+import rushapp from "../../img/rushapp-1.jpg";
+import gamefi from "../../img/game-fi.png";
+import gamefi2 from "../../img/game-fi-design.jpg";
+import blockchain from "../../img/certificate.JPG";
+import jairaw1 from "../../img/Jairaw(1).jpg";
+import jairaw2 from "../../img/Jairaw(2).jpg";
+
 export default function works() {
     const jobs = [
         "front-end developer",
@@ -24,99 +32,141 @@ export default function works() {
                     </div>
                 </div>
 
-                <div className="flex flex-col md:flex-row md:justify-between mb-3 py-9 px-3 bg-darkbg rounded-lg">
-                    <div className="flex flex-col md:flex-row ">
-                        <p className="md:-rotate-90 text-primary text-4xl">
-                            2022
-                        </p>
-                        <div className="text-xl font-light h-fit mb-8 lg:mb-0">
-                            <p>IN POSITION OF</p>
-                            <p>FRONT-END DEVELOPER</p>
+                <div className="bg-darkbg rounded-lg mb-3 pb-10">
+                    <div className="flex flex-col md:flex-row md:justify-between mb-3 py-9 px-3">
+                        <div className="flex flex-col md:flex-row ">
+                            <p className="md:-rotate-90 text-primary text-4xl">
+                                2022
+                            </p>
+                            <div className="text-xl font-light h-fit mb-8 lg:mb-0">
+                                <p>IN POSITION OF</p>
+                                <p>FRONT-END DEVELOPER</p>
+                            </div>
+                        </div>
+
+                        <div className="text-4xl lg:text-right self-center">
+                            <p>rush app</p>
                         </div>
                     </div>
-
-                    <div className="text-4xl lg:text-right self-center">
-                        <p>rush app</p>
+                    <div className="flex flex-row justify-center">
+                        <Image src={rushapp} alt="" className="mx-auto" />
                     </div>
                 </div>
 
-                <div className="flex flex-col md:flex-row md:justify-between mb-3 py-9 px-3 bg-darkbg rounded-lg">
-                    <div className="flex flex-col md:flex-row ">
-                        <p className="md:-rotate-90 text-primary brightness-50 text-4xl">
-                            2021
-                        </p>
-                        <div className="text-xl font-light h-fit mb-8 lg:mb-0">
-                            <p>RESEARCH</p>
-                            <p>GAME-FI NFT</p>
+                <div className="bg-darkbg rounded-lg mb-3 pb-10">
+                    <div className="flex flex-col md:flex-row md:justify-between mb-3 py-9 px-3">
+                        <div className="flex flex-col md:flex-row ">
+                            <p className="md:-rotate-90 text-primary brightness-50 text-4xl">
+                                2021
+                            </p>
+                            <div className="text-xl font-light h-fit mb-8 lg:mb-0">
+                                <p>RESEARCH</p>
+                                <p>GAME-FI NFT</p>
+                            </div>
+                        </div>
+
+                        <div className="text-4xl lg:text-right self-center">
+                            <p>GAME-FI, NFT</p>
                         </div>
                     </div>
-
-                    <div className="text-4xl lg:text-right self-center">
-                        <p>GAME-FI, NFT</p>
+                    <div className="flex flex-row justify-center">
+                        <Image
+                            src={gamefi}
+                            alt=""
+                            className="mx-auto h-10 aspect-auto"
+                        />
+                        <Image
+                            src={gamefi2}
+                            alt=""
+                            className="mx-auto h-10 aspect-auto"
+                        />
                     </div>
                 </div>
 
-                <div className="flex flex-col md:flex-row md:justify-between mb-3 py-9 px-3 bg-darkbg rounded-lg">
-                    <div className="flex flex-col md:flex-row ">
-                        <p className="md:-rotate-90 text-primary brightness-50 text-4xl">
-                            2021
-                        </p>
-                        <div className="text-xl font-light h-fit mb-8 lg:mb-0">
-                            <p>RESEARCH</p>
+                <div className="bg-darkbg rounded-lg mb-3 pb-10">
+                    <div className="flex flex-col md:flex-row md:justify-between mb-3 py-9 px-3">
+                        <div className="flex flex-col md:flex-row ">
+                            <p className="md:-rotate-90 text-primary brightness-50 text-4xl">
+                                2021
+                            </p>
+                            <div className="text-xl font-light h-fit mb-8 lg:mb-0">
+                                <p>RESEARCH</p>
+                                <p>BLOCKCHAIN</p>
+                            </div>
+                        </div>
+
+                        <div className="text-4xl lg:text-right self-center">
                             <p>BLOCKCHAIN</p>
                         </div>
                     </div>
-
-                    <div className="text-4xl lg:text-right self-center">
-                        <p>BLOCKCHAIN</p>
+                    <div className="flex flex-row justify-center">
+                        <Image src={blockchain} alt="" className="mx-auto" />
                     </div>
                 </div>
 
-                <div className="flex flex-col md:flex-row md:justify-between mb-3 py-9 px-3 bg-darkbg rounded-lg">
-                    <div className="flex flex-col md:flex-row ">
-                        <p className="md:-rotate-90 text-primary brightness-50 text-4xl">
-                            2020
-                        </p>
-                        <div className="text-xl font-light h-fit mb-8 lg:mb-0">
-                            <p>IN POSITION OF</p>
-                            <p>video editor</p>
+                <div className="bg-darkbg rounded-lg mb-3 pb-10">
+                    <div className="flex flex-col md:flex-row md:justify-between mb-3 py-9 px-3">
+                        <div className="flex flex-col md:flex-row ">
+                            <p className="md:-rotate-90 text-primary brightness-50 text-4xl">
+                                2020
+                            </p>
+                            <div className="text-xl font-light h-fit mb-8 lg:mb-0">
+                                <p>IN POSITION OF</p>
+                                <p>video editor</p>
+                            </div>
+                        </div>
+
+                        <div className="text-4xl lg:text-right self-center">
+                            <p>JAI RAW</p>
                         </div>
                     </div>
-
-                    <div className="text-4xl lg:text-right self-center">
-                        <p>JAI RAW</p>
+                    <div className="flex flex-row justify-center">
+                        <Image src={jairaw1} alt="" className="mx-auto" />
+                        <Image src={jairaw2} alt="" className="mx-auto" />
                     </div>
                 </div>
 
-                <div className="flex flex-col md:flex-row md:justify-between mb-3 py-9 px-3 bg-darkbg rounded-lg">
-                    <div className="flex flex-col md:flex-row ">
-                        <p className="md:-rotate-90 text-primary brightness-50 text-4xl">
-                            2019
-                        </p>
-                        <div className="text-xl font-light h-fit mb-8 lg:mb-0">
-                            <p>IN POSITION OF</p>
-                            <p>video editor</p>
+                <div className="bg-darkbg rounded-lg mb-3 pb-10">
+                    <div className="flex flex-col md:flex-row md:justify-between mb-3 py-9 px-3">
+                        <div className="flex flex-col md:flex-row ">
+                            <p className="md:-rotate-90 text-primary brightness-50 text-4xl">
+                                2019
+                            </p>
+                            <div className="text-xl font-light h-fit mb-8 lg:mb-0">
+                                <p>IN POSITION OF</p>
+                                <p>video editor</p>
+                            </div>
+                        </div>
+
+                        <div className="text-4xl lg:text-right self-center">
+                            <p>JAI RAW</p>
                         </div>
                     </div>
-
-                    <div className="text-4xl lg:text-right self-center">
-                        <p>JAI RAW</p>
+                    <div className="flex flex-row justify-center">
+                        <Image src={jairaw1} alt="" className="mx-auto" />
+                        <Image src={jairaw2} alt="" className="mx-auto" />
                     </div>
                 </div>
 
-                <div className="flex flex-col md:flex-row md:justify-between mb-3 py-9 px-3 bg-darkbg rounded-lg">
-                    <div className="flex flex-col md:flex-row ">
-                        <p className="md:-rotate-90 text-primary brightness-50 text-4xl">
-                            2018
-                        </p>
-                        <div className="text-xl font-light h-fit mb-8 lg:mb-0">
-                            <p>IN POSITION OF</p>
-                            <p>video editor</p>
+                <div className="bg-darkbg rounded-lg mb-3 pb-10">
+                    <div className="flex flex-col md:flex-row md:justify-between mb-3 py-9 px-3">
+                        <div className="flex flex-col md:flex-row ">
+                            <p className="md:-rotate-90 text-primary brightness-50 text-4xl">
+                                2018
+                            </p>
+                            <div className="text-xl font-light h-fit mb-8 lg:mb-0">
+                                <p>IN POSITION OF</p>
+                                <p>video editor</p>
+                            </div>
+                        </div>
+
+                        <div className="text-4xl lg:text-right self-center">
+                            <p>JAI RAW</p>
                         </div>
                     </div>
-
-                    <div className="text-4xl lg:text-right self-center">
-                        <p>JAI RAW</p>
+                    <div className="flex flex-row justify-center">
+                        <Image src={jairaw1} alt="" className="mx-auto" />
+                        <Image src={jairaw2} alt="" className="mx-auto" />
                     </div>
                 </div>
             </div>
