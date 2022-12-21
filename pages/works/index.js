@@ -6,13 +6,6 @@ import { useState } from "react";
 
 import Image from "next/image";
 
-import rushapp from "../../img/rushapp-1.jpg";
-import gamefi from "../../img/game-fi.png";
-import gamefi2 from "../../img/game-fi-design.jpg";
-import blockchain from "../../img/certificate.JPG";
-import jairaw1 from "../../img/Jairaw(1).jpg";
-import jairaw2 from "../../img/Jairaw(2).jpg";
-
 export default function works() {
     const jobs = [
         "front-end developer",
@@ -51,7 +44,7 @@ export default function works() {
                     </div>
                     <div className="flex flex-row justify-center">
                         <img
-                            src={require(rushapp)}
+                            src={require("../../img/rushapp-1.jpg")}
                             alt="image"
                             className="mx-auto"
                         />
@@ -76,12 +69,12 @@ export default function works() {
                     </div>
                     <div className="flex flex-row justify-center">
                         <img
-                            src={require(gamefi)}
+                            src={require("../../img/game-fi.png")}
                             alt="image"
                             className="mx-auto h-10 aspect-auto"
                         />
                         <img
-                            src={require(gamefi2)}
+                            src={require("../../img/game-fi-design.jpg")}
                             alt="image"
                             className="mx-auto h-10 aspect-auto"
                         />
@@ -106,7 +99,7 @@ export default function works() {
                     </div>
                     <div className="flex flex-row justify-center">
                         <img
-                            src={require(blockchain)}
+                            src={require("../../img/certificate.JPG")}
                             alt="image"
                             className="mx-auto"
                         />
@@ -131,12 +124,12 @@ export default function works() {
                     </div>
                     <div className="flex flex-row justify-center">
                         <img
-                            src={require(jairaw1)}
+                            src={require("../../img/Jairaw(1).jpg")}
                             alt="image"
                             className="mx-auto"
                         />
                         <img
-                            src={require(jairaw2)}
+                            src={require("../../img/Jairaw(2).jpg")}
                             alt="image"
                             className="mx-auto"
                         />
@@ -161,12 +154,12 @@ export default function works() {
                     </div>
                     <div className="flex flex-row justify-center">
                         <img
-                            src={require(jairaw1)}
+                            src={require("../../img/Jairaw(1).jpg")}
                             alt="image"
                             className="mx-auto"
                         />
                         <img
-                            src={require(jairaw2)}
+                            src={require("../../img/Jairaw(2).jpg")}
                             alt="image"
                             className="mx-auto"
                         />
@@ -191,12 +184,12 @@ export default function works() {
                     </div>
                     <div className="flex flex-row justify-center">
                         <img
-                            src={require(jairaw1)}
+                            src={require("../../img/Jairaw(1).jpg")}
                             alt="image"
                             className="mx-auto"
                         />
                         <img
-                            src={require(jairaw2)}
+                            src={require("../../img/Jairaw(2).jpg")}
                             alt="image"
                             className="mx-auto"
                         />
