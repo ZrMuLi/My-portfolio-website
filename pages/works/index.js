@@ -50,7 +50,11 @@ export default function works() {
                         </div>
                     </div>
                     <div className="flex flex-row justify-center">
-                        <Image src={rushapp} alt="image" className="mx-auto" />
+                        <img
+                            src={require(rushapp)}
+                            alt="image"
+                            className="mx-auto"
+                        />
                     </div>
                 </div>
 
@@ -71,13 +75,13 @@ export default function works() {
                         </div>
                     </div>
                     <div className="flex flex-row justify-center">
-                        <Image
-                            src={gamefi}
+                        <img
+                            src={require(gamefi)}
                             alt="image"
                             className="mx-auto h-10 aspect-auto"
                         />
-                        <Image
-                            src={gamefi2}
+                        <img
+                            src={require(gamefi2)}
                             alt="image"
                             className="mx-auto h-10 aspect-auto"
                         />
@@ -101,8 +105,8 @@ export default function works() {
                         </div>
                     </div>
                     <div className="flex flex-row justify-center">
-                        <Image
-                            src={blockchain}
+                        <img
+                            src={require(blockchain)}
                             alt="image"
                             className="mx-auto"
                         />
@@ -126,8 +130,16 @@ export default function works() {
                         </div>
                     </div>
                     <div className="flex flex-row justify-center">
-                        <Image src={jairaw1} alt="image" className="mx-auto" />
-                        <Image src={jairaw2} alt="image" className="mx-auto" />
+                        <img
+                            src={require(jairaw1)}
+                            alt="image"
+                            className="mx-auto"
+                        />
+                        <img
+                            src={require(jairaw2)}
+                            alt="image"
+                            className="mx-auto"
+                        />
                     </div>
                 </div>
 
@@ -148,8 +160,16 @@ export default function works() {
                         </div>
                     </div>
                     <div className="flex flex-row justify-center">
-                        <Image src={jairaw1} alt="image" className="mx-auto" />
-                        <Image src={jairaw2} alt="image" className="mx-auto" />
+                        <img
+                            src={require(jairaw1)}
+                            alt="image"
+                            className="mx-auto"
+                        />
+                        <img
+                            src={require(jairaw2)}
+                            alt="image"
+                            className="mx-auto"
+                        />
                     </div>
                 </div>
 
@@ -170,8 +190,16 @@ export default function works() {
                         </div>
                     </div>
                     <div className="flex flex-row justify-center">
-                        <Image src={jairaw1} alt="image" className="mx-auto" />
-                        <Image src={jairaw2} alt="image" className="mx-auto" />
+                        <img
+                            src={require(jairaw1)}
+                            alt="image"
+                            className="mx-auto"
+                        />
+                        <img
+                            src={require(jairaw2)}
+                            alt="image"
+                            className="mx-auto"
+                        />
                     </div>
                 </div>
             </div>
