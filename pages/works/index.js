@@ -6,6 +6,13 @@ import { useState } from "react";
 
 import Image from "next/image";
 
+import rushapp from "../../img/rushapp-1.png";
+import gamefi from "../../img/game-fi.png";
+import gamefi2 from "../../img/game-fi-design.png";
+import blockchain from "../../img/certificate.png";
+import jairaw1 from "../../img/jairaw1.png";
+import jairaw2 from "../../img/jairaw2.png";
+
 export default function works() {
     const jobs = [
         "front-end developer",
@@ -43,11 +50,7 @@ export default function works() {
                         </div>
                     </div>
                     <div className="flex flex-row justify-center">
-                        <img
-                            src={require("./rushapp-1.png")}
-                            alt="image"
-                            className="mx-auto"
-                        />
+                        <Image src={rushapp} alt="image" className="mx-auto" />
                     </div>
                 </div>
 
@@ -68,13 +71,13 @@ export default function works() {
                         </div>
                     </div>
                     <div className="flex flex-row justify-center">
-                        <img
-                            src={require("./game-fi.png")}
+                        <Image
+                            src={gamefi}
                             alt="image"
                             className="mx-auto h-10 aspect-auto"
                         />
-                        <img
-                            src={require("./game-fi-design.png")}
+                        <Image
+                            src={gamefi2}
                             alt="image"
                             className="mx-auto h-10 aspect-auto"
                         />
@@ -98,8 +101,8 @@ export default function works() {
                         </div>
                     </div>
                     <div className="flex flex-row justify-center">
-                        <img
-                            src={require("./certificate.png")}
+                        <Image
+                            src={blockchain}
                             alt="image"
                             className="mx-auto"
                         />
@@ -123,16 +126,8 @@ export default function works() {
                         </div>
                     </div>
                     <div className="flex flex-row justify-center">
-                        <img
-                            src={require("./jairaw1.png")}
-                            alt="image"
-                            className="mx-auto"
-                        />
-                        <img
-                            src={require("./jairaw2.png")}
-                            alt="image"
-                            className="mx-auto"
-                        />
+                        <Image src={jairaw1} alt="image" className="mx-auto" />
+                        <Image src={jairaw2} alt="image" className="mx-auto" />
                     </div>
                 </div>
 
@@ -153,16 +148,8 @@ export default function works() {
                         </div>
                     </div>
                     <div className="flex flex-row justify-center">
-                        <img
-                            src={require("./jairaw1.png")}
-                            alt="image"
-                            className="mx-auto"
-                        />
-                        <img
-                            src={require("./jairaw2.png")}
-                            alt="image"
-                            className="mx-auto"
-                        />
+                        <Image src={jairaw1} alt="image" className="mx-auto" />
+                        <Image src={jairaw2} alt="image" className="mx-auto" />
                     </div>
                 </div>
 
@@ -183,16 +170,8 @@ export default function works() {
                         </div>
                     </div>
                     <div className="flex flex-row justify-center">
-                        <img
-                            src={require("./jairaw1.png")}
-                            alt="image"
-                            className="mx-auto"
-                        />
-                        <img
-                            src={require("./jairaw2.png")}
-                            alt="image"
-                            className="mx-auto"
-                        />
+                        <Image src={jairaw1} alt="image" className="mx-auto" />
+                        <Image src={jairaw2} alt="image" className="mx-auto" />
                     </div>
                 </div>
             </div>
