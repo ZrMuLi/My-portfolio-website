@@ -5,6 +5,7 @@ import { TypeAnimation } from "react-type-animation";
 import { useState } from "react";
 
 import Image from "next/image";
+
 import rushapp from "../../img/rushapp-1.jpg";
 import gamefi from "../../img/game-fi.png";
 import gamefi2 from "../../img/game-fi-design.jpg";
@@ -49,7 +50,7 @@ export default function works() {
                         </div>
                     </div>
                     <div className="flex flex-row justify-center">
-                        <Image src={rushapp} alt="" className="mx-auto" />
+                        <Image src={rushapp} alt="image" className="mx-auto" />
                     </div>
                 </div>
 
@@ -72,12 +73,12 @@ export default function works() {
                     <div className="flex flex-row justify-center">
                         <Image
                             src={gamefi}
-                            alt=""
+                            alt="image"
                             className="mx-auto h-10 aspect-auto"
                         />
                         <Image
                             src={gamefi2}
-                            alt=""
+                            alt="image"
                             className="mx-auto h-10 aspect-auto"
                         />
                     </div>
@@ -100,7 +101,11 @@ export default function works() {
                         </div>
                     </div>
                     <div className="flex flex-row justify-center">
-                        <Image src={blockchain} alt="" className="mx-auto" />
+                        <Image
+                            src={blockchain}
+                            alt="image"
+                            className="mx-auto"
+                        />
                     </div>
                 </div>
 
@@ -121,8 +126,8 @@ export default function works() {
                         </div>
                     </div>
                     <div className="flex flex-row justify-center">
-                        <Image src={jairaw1} alt="" className="mx-auto" />
-                        <Image src={jairaw2} alt="" className="mx-auto" />
+                        <Image src={jairaw1} alt="image" className="mx-auto" />
+                        <Image src={jairaw2} alt="image" className="mx-auto" />
                     </div>
                 </div>
 
@@ -143,8 +148,8 @@ export default function works() {
                         </div>
                     </div>
                     <div className="flex flex-row justify-center">
-                        <Image src={jairaw1} alt="" className="mx-auto" />
-                        <Image src={jairaw2} alt="" className="mx-auto" />
+                        <Image src={jairaw1} alt="image" className="mx-auto" />
+                        <Image src={jairaw2} alt="image" className="mx-auto" />
                     </div>
                 </div>
 
@@ -165,8 +170,8 @@ export default function works() {
                         </div>
                     </div>
                     <div className="flex flex-row justify-center">
-                        <Image src={jairaw1} alt="" className="mx-auto" />
-                        <Image src={jairaw2} alt="" className="mx-auto" />
+                        <Image src={jairaw1} alt="image" className="mx-auto" />
+                        <Image src={jairaw2} alt="image" className="mx-auto" />
                     </div>
                 </div>
             </div>
